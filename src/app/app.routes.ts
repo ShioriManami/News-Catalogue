@@ -12,6 +12,16 @@ export const routes: Routes = [
             .then(m => m.HomeComponent)
     },
     {
+        path: 'noticias',
+        loadComponent: () => import('./components/news/news')
+            .then(m => m.NewsComponent)
+    },
+    {
+        path: 'noticias/:id',
+        loadComponent: () => import('./components/news-detail/news-detail')
+            .then(m => m.NewsDetailComponent)
+    },
+    {
         path: 'Noticia1',
         loadComponent: () => import('./components/notas/noticia1/noticia1')
             .then(m => m.AutosChinosComponent)

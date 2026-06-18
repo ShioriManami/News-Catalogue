@@ -300,7 +300,7 @@ export class HomeComponent {
     {
       id: 1,
       title: 'Autos Eléctricos Chinos',
-      summary: 'BYD, MG y JAC redefinen el mercado con precios competitivos y enfrentan el reto de los aranceles[cite: 1, 4, 33].',
+      summary: 'BYD, MG y JAC redefinen el mercado con precios competitivos y enfrentan el reto de los aranceles.',
       imageUrl: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&h=400&fit=crop', // Azul/Auto
       category: 'Automotriz',
       badgeClass: 'badge-auto',
@@ -310,7 +310,7 @@ export class HomeComponent {
     {
       id: 2,
       title: 'Amazon vs. Mercado Libre',
-      summary: 'Choque de titanes: La eficiencia global de Amazon contra la adaptación local y Fintech de Mercado Libre[cite: 170].',
+      summary: 'Choque de titanes: La eficiencia global de Amazon contra la adaptación local y Fintech de Mercado Libre.',
       imageUrl: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&h=400&fit=crop', // Warehouse
       category: 'E-commerce',
       badgeClass: 'badge-ecommerce',
@@ -320,7 +320,7 @@ export class HomeComponent {
     {
       id: 3,
       title: 'Guerra del Banano',
-      summary: 'La disputa histórica en la OMC entre Ecuador y la Unión Europea por el comercio del banano[cite: 324].',
+      summary: 'La disputa histórica en la OMC entre Ecuador y la Unión Europea por el comercio del banano.',
       imageUrl: 'https://images.unsplash.com/photo-1528825871115-3581a5387919?w=600&h=400&fit=crop', // Agricultura
       category: 'Historia',
       badgeClass: 'badge-history',

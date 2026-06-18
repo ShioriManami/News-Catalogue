@@ -21,16 +21,23 @@ import { CommonModule } from '@angular/common';
         </button>
         
         <div class="nav-links" [class.active]="isMenuOpen()">
-          <a 
-            routerLink="/inicio" 
+          <a
+            routerLink="/inicio"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
             (click)="closeMenu()">
             🏠 Inicio
           </a>
-          
-          <a 
-            routerLink="/Noticia1" 
+
+          <a
+            routerLink="/noticias"
+            routerLinkActive="active"
+            (click)="closeMenu()">
+            📰 Catálogo
+          </a>
+
+          <a
+            routerLink="/Noticia1"
             routerLinkActive="active"
             (click)="closeMenu()">
             🚙 Autos & EVs
